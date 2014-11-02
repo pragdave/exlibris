@@ -2,6 +2,11 @@ defmodule Exlibris.Mixfile do
   use Mix.Project
 
   @description """
+  A collection of random library functions I use across multiple projects:
+
+  pipe_while_ok: Create pipelines that terminate early if any step fails to return a tuple that starts {:ok, ...}
+
+  before_returning: Like Ruby's returning, it evaluates its first argument, then evalates the do block. It always returns the value of its first argument.  
   """
 
   @package [

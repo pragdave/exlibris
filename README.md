@@ -10,7 +10,7 @@ A collection of random functions that I've used in more than one project:
 
 * **before_returning**
 
-  Like Ruby's `returning`, it evaluates its first argument, then evalates the
+  Like Ruby's `returning`, it evaluates its first argument, then evaluates the
   `do` block. It always returns the value of its first argument.
 
   The `do` block is like the body of a `case`, in that it receives the value
